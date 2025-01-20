@@ -319,14 +319,15 @@ form .btn2 {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  height: 350px;
+  height: 400px;
 }
 
 .work-list .work img {
-  width: auto;
+  width: 100%;
   height: 100%;
   border-radius: 10px;
-  display: block;
+  display: flex;
+  justify-content: center;
   transition: transform 0.3s;
 }
 
